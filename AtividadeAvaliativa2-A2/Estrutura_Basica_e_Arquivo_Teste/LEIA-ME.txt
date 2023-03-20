@@ -1,0 +1,29 @@
+Siga as seguintes instruções antes de iniciar a atividade:
+- Compile o arquivo bank.c
+- Coloque o arquivo bank.data na mesma pasta onde o arquivo compilado foi gerado.
+- Execute o código gerado e informe o nome do arquivo, neste caso: bank.data
+
+Você verá que a saída gerada pelo programa está relacionada ao conteúdo do arquivo. Ou seja, o arquivo contém todos os registros bancários necessários para inserção dos dados no sistema. A função readFile realiza a leitura do conteúdo do arquivo.
+
+Os tipos descritos na especificação deverão ser completados por vocês bem como todas as funções relacionadas a estes TADs que também estão na especificação.
+
+IMPORTANTE:
+NÃO é necessário modificar o arquivo, ele serve apenas como entrada de dados.
+
+O arquivo se encontra no seguinte formato:
+
+- Operacao (add ou mov)
+---- add: significa adição de um cliente
+Padrão no arquivo:
+add idCliente numeroConta saldoInicialConta
+
+---- mov: significa uma movimentação bancária
+Padrão no arquivo
+mov tipoMov idCliente (ou idClienteOrig-idClienteDest) valor
+
+tipoMov: 0 = depósito, 1 = saque, 2 = transferência 
+
+Exemplos:
+Operação de depósito     : mov 0 101 500
+Operação de saque        : mov 1 109 200
+Operação de transferência: mov 2 103-102 90

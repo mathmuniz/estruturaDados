@@ -1,0 +1,98 @@
+=====================================================
+Id. Cliente  :    1
+Numero Conta :    10
+Saldo inicial:    1250.20
+------------------- Movimentacoes -------------------
+Tipo: Deposito | Valor: 25.50
+Tipo: Saque    | Valor: -325.70
+Tipo: Transf.  | Valor: -12.00 ===> Destinatario: 5
+
+Saldo Final: 938.00
+=====================================================
+Id. Cliente  :    2
+Numero Conta :    11
+Saldo inicial:    550.70
+------------------- Movimentacoes -------------------
+Tipo: Saque    | Valor: -5.70
+Tipo: Transf.  | Valor: 314.00 ===> Origem: 7
+Tipo: Transf.  | Valor: 125.00 ===> Origem: 3
+
+Saldo Final: 984.00
+=====================================================
+Id. Cliente  :    3
+Numero Conta :    12
+Saldo inicial:    25.20
+------------------- Movimentacoes -------------------
+Tipo: Deposito | Valor: 1500.25
+Tipo: Transf.  | Valor: -500.25 ===> Destinatario: 9
+Tipo: Transf.  | Valor: 255.55 ===> Origem: 4
+Tipo: Transf.  | Valor: -125.00 ===> Destinatario: 2
+
+Saldo Final: 1155.75
+=====================================================
+Id. Cliente  :    4
+Numero Conta :    13
+Saldo inicial:    1255.35
+------------------- Movimentacoes -------------------
+Tipo: Deposito | Valor: 5.00
+Tipo: Saque    | Valor: -55.35
+Tipo: Transf.  | Valor: -255.55 ===> Destinatario: 3
+
+Saldo Final: 949.45
+=====================================================
+Id. Cliente  :    5
+Numero Conta :    14
+Saldo inicial:    125.00
+------------------- Movimentacoes -------------------
+Tipo: Deposito | Valor: 570.00
+Tipo: Saque    | Valor: -5.00
+Tipo: Transf.  | Valor: -102.00 ===> Destinatario: 8
+Tipo: Transf.  | Valor: 12.00 ===> Origem: 1
+
+Saldo Final: 600.00
+=====================================================
+Id. Cliente  :    6
+Numero Conta :    15
+Saldo inicial:    75.00
+------------------- Movimentacoes -------------------
+Tipo: Transf.  | Valor: 125.00 ===> Origem: 9
+
+Saldo Final: 200.00
+=====================================================
+Id. Cliente  :    7
+Numero Conta :    16
+Saldo inicial:    902.68
+------------------- Movimentacoes -------------------
+Tipo: Deposito | Valor: 314.00
+Tipo: Saque    | Valor: -2.68
+Tipo: Transf.  | Valor: -314.00 ===> Destinatario: 2
+
+Saldo Final: 900.00
+=====================================================
+Id. Cliente  :    8
+Numero Conta :    17
+Saldo inicial:    355.23
+------------------- Movimentacoes -------------------
+Tipo: Transf.  | Valor: 102.00 ===> Origem: 5
+
+Saldo Final: 457.23
+=====================================================
+Id. Cliente  :    9
+Numero Conta :    18
+Saldo inicial:    5.00
+------------------- Movimentacoes -------------------
+Tipo: Deposito | Valor: 255.00
+Tipo: Saque    | Valor: -2.00
+Tipo: Transf.  | Valor: 500.25 ===> Origem: 3
+Tipo: Transf.  | Valor: -125.00 ===> Destinatario: 6
+
+Saldo Final: 633.25
+=====================================================
+Id. Cliente  :    10
+Numero Conta :    19
+Saldo inicial:    5000.00
+------------------- Movimentacoes -------------------
+Sem movimentacoes
+
+Saldo Final: 5000.00
+=====================================================
